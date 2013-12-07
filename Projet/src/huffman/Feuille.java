@@ -1,0 +1,15 @@
+package huffman;
+
+public class Feuille extends Element {
+
+	private char symbole;
+
+	public Feuille(char symbole) {
+		super();
+		this.symbole = symbole;
+	}
+
+	public char getSymbole() {
+		return symbole;
+	}
+}

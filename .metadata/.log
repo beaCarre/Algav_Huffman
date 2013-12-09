@@ -20,3 +20,68 @@ Java Model Exception: Java Model Status [Unknown javadoc format for FileInputStr
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-12-07 20:43:33.663
 !MESSAGE Unknown javadoc format for FileInputStream(java.io.File) {key=Ljava/io/FileInputStream;.(Ljava/io/File;)V|Ljava/io/FileNotFoundException;} [in FileInputStream [in FileInputStream.class [in java.io [in /usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar]]]]
+!SESSION 2013-12-09 15:17:33.074 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data /users/nfs/Etu7/2900087/Algav/Algav_Huffman -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-12-09 15:17:35.527
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 15:17:41.664
+!MESSAGE System property http.proxyHost is set to proxy.ufr-info-p6.jussieu.fr but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 15:17:41.930
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 15:17:41.949
+!MESSAGE System property http.proxyHost is set to proxy.ufr-info-p6.jussieu.fr but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 15:17:42.093
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+!SESSION 2013-12-09 16:16:28.673 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-12-09 16:17:03.108
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 16:17:15.885
+!MESSAGE System property http.proxyHost is set to proxy.ufr-info-p6.jussieu.fr but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 16:17:15.890
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 16:17:15.904
+!MESSAGE System property http.proxyHost is set to proxy.ufr-info-p6.jussieu.fr but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-09 16:17:15.906
+!MESSAGE System property http.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.jface 2 0 2013-12-09 16:27:02.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-09 16:27:02.410
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67417396,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3560d863,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

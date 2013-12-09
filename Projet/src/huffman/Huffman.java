@@ -19,11 +19,12 @@ public class Huffman {
 
 		for (char symbole : texte.toCharArray()) {
 
-			if (arbre.estPresent(symbole)) {
+			if (arbre.estPresent(symbole) && symbole != '#') {
 				gestion.transmettreChemin(arbre.getCode(symbole)); //log n
  			} else {
 				gestion.transmettreChemin(arbre.getCode('#')); // log n
 				gestion.transmettreSymbole(symbole);
+				
 			}
 
 			arbre.modification(symbole);

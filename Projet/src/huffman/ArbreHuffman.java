@@ -26,7 +26,9 @@ public class ArbreHuffman {
 	private void traitement(Element Q) {
 		if (Q == null) {
 			return;
-		} else if (estIncrementable(Q)) {
+		} else if (Q == feuilles ['#']){
+			racine.incrPoids();
+		}else if (estIncrementable(Q)) {
 			incrementeChemin(Q);
 		} else {
 			Element m = premierIndice(Q);
@@ -149,8 +151,8 @@ public class ArbreHuffman {
 		updateNoeuds();
 	}
 
-	// Mets � jour tous les suivants, version brute-force
-	// Y a peut-�tre plus efficace => pas le temps
+	// Mets a jour tous les suivants, version brute-force
+	// Y a peut-etre plus efficace => pas le temps
 	// -> teta(n)
 	private void updateNoeuds() {
 		List<Couple<Integer, Element>> liste = new ArrayList<Couple<Integer, Element>>();
